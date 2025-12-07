@@ -565,3 +565,41 @@ df[['location_num']].head(10)
 ```
 
 ---
+
+
+```{python}
+
+# %%
+# Read in libraries
+import pandas as pd
+import numpy as np
+from lets_plot import *
+LetsPlot.setup_html(isolated_frame=True)
+url = 'https://github.com/fivethirtyeight/data/raw/master/star-wars-survey/StarWars.csv'
+
+df.head(20)
+
+# Load data
+url = 'https://github.com/fivethirtyeight/data/raw/master/star-wars-survey/StarWars.csv'
+df = pd.read_csv(url, encoding="latin-1")
+
+# Column names
+seen_col = "Have you seen any of the 6 films in the Star Wars franchise?"
+gender_col = "Gender"
+
+# Filter to only male respondents
+df_male = df[df[gender_col] == "Male"]
+
+# Among males: count those who answered "Yes"
+male_yes = df_male[df_male[seen_col] == "Yes"].shape[0]
+
+# Total males who answered the question (non-null)
+male_total = df_male[seen_col].notna().shape[0]
+
+# Percent of males who have seen at least one film
+percent_male_yes = male_yes / male_total
+
+# Report to four decimal places
+print(f"{percent_male_yes:.4f}")
+
+```
