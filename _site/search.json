@@ -547,5 +547,33 @@
     "title": "Client Report - The War with Star Wars",
     "section": "STRETCH QUESTION|TASK 3",
     "text": "STRETCH QUESTION|TASK 3\nCreate a new column that converts the location groupings to a single number. Drop the location categorical column.\nThis is the first 10 rows of the new numerical location column.\n\n\nShow the code\n# Include and execute your code here\ndf = pd.read_csv('StarWars.csv', encoding='ISO-8859-1')\n\nloc_map = {\n'East North Central':1,\n'East South Central':2,\n'Middle Atlantic':3,\n'Mountain':4,\n'New England':5,\n'Pacific':6,\n'Response':7,\n'South Atlantic':8,\n'West North Central':9,\n'West South Central':10\n}\ndf['location_num'] = df['Location (Census Region)'].map(loc_map)\ndf = df.drop(columns=['Location (Census Region)'])\n\ndf[['location_num']].head(10)\n\n\n\n\n\n\n\n\n\nlocation_num\n\n\n\n\n0\n7.0\n\n\n1\n8.0\n\n\n2\n10.0\n\n\n3\n9.0\n\n\n4\n9.0\n\n\n5\n9.0\n\n\n6\n3.0\n\n\n7\n1.0\n\n\n8\n8.0\n\n\n9\n8.0"
+  },
+  {
+    "objectID": "ds250_projects/project3.html",
+    "href": "ds250_projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ds250_projects/project1.html",
+    "href": "ds250_projects/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ds250_projects/project4.html",
+    "href": "ds250_projects/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ds250_projects/project2.html",
+    "href": "ds250_projects/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   }
 ]
