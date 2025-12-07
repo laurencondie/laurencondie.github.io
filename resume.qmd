@@ -1,89 +1,57 @@
 ---
-layout: cv
-title: Isaac Newtons's CV
+title: "Lauren Condie Resume"
+author: "Lauren Condie"
+output: pdf_document
+geometry: margin=1in
+fontsize: 11pt
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+# Contact Information
+**Phone:** 469-318-6171  
+**Email:** [laurencondie4@gmail.com](mailto:laurencondie4@gmail.com)  
+**LinkedIn:** [linkedin.com/in/lauren-condie](https://www.linkedin.com/in/lauren-condie/)
 
+# Skills Summary
+- **Statistical Analysis:** RStudio, Python, SQL Workbench, Qualtrics  
+- **Microsoft Office Tools:** Excel, Word, PowerPoint, Outlook  
+- **Soft Skills:** Detail-oriented, highly organized, strong analytical and critical thinking skills  
 
-## Currently
+# Education
+**Bachelor of Data Science** | Brigham Young University - Idaho | Rexburg, Idaho  
+*August 2023 – Present*  
+- GPA: 3.95  
+- Minor in Data Science  
+- Brigham Young University Scholarship Recipient  
 
-Standing on the shoulders of giants
+**High School Diploma** | Homeschool Co-Op | Forney, Texas  
+*August 2019 – May 2023*  
+- GPA: 4.0  
+- Classical education  
+- Completed dual-credit coursework through Dallas and Lone Star College  
 
-### Specialized in
+# Experience
+**Research Specialist - Team Lead** | Brigham Young University - Idaho | Rexburg, Idaho  
+*March 2024 – September 2025*  
+- Recruited participants, conducted, and analyzed results for 30+ focus groups  
+- Designed and administered surveys for university-wide initiatives using Qualtrics  
+- Conducted in-depth interviews with students and faculty to collect data and insights  
+- Utilized Excel and PowerPoint to interpret and visualize findings  
+- Trained new hires on research methods, data analysis, and software tools  
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+**Restaurant Team Member** | Panera Bread | Forney, Texas  
+*December 2022 – December 2023*  
+- Provided accurate, efficient service ensuring quality and customer satisfaction  
+- Trained new team members through modeling and coaching  
+- Adapted to changing tasks in a fast-paced environment  
+- Demonstrated reliability with flexible scheduling  
 
+**Business Owner/Operator** | Condie Cooking School | Forney, Texas  
+*May 2023 – August 2023*  
+- Founded and ran multiple 5-week cooking courses for students (ages 6–17)  
+- Managed curriculum, recipe planning, ingredient purchasing, and safety protocols  
 
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+# Volunteer Work
+**Volunteer Library Page** | Rockwall County Library | Rockwall, Texas  
+*May 2018 – May 2022*  
+- Organized and restocked library materials with accuracy and attention to detail  
+- Catalogued and sorted over 100 items per session, learning library systems thoroughly  
